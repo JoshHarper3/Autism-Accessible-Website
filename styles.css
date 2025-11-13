@@ -30,3 +30,43 @@ html {
 .navbar-toggler {
   margin-left: auto;
 }
+
+.guidelines-h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Guidelines-List ul li{
+    list-style: disc;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.Guidelines-List ul li span{
+    color:black;
+    text-align: center;
+}
+
+.Guidelines-List ul{
+    font-size: 18px;
+    text-align: center;
+    list-style-position: inside;
+    background-color: lightblue;
+    width: 70%;
+    height: 300px;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+    transform: scale(1);
+}
+
+.Guidelines-List ul:hover{
+transform: scale(1.05);
+opacity: 80%;
+}
+
+.Guidelines-List{
+    display: flex;
+    justify-content: center;
+}
