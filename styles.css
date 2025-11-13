@@ -39,7 +39,6 @@ html {
 }
 
 .Guidelines-List ul li{
-    list-style: disc;
     margin: 10px 0;
     text-align: center;
 }
@@ -51,14 +50,19 @@ html {
 
 .Guidelines-List ul{
     font-size: 18px;
-    text-align: center;
-    list-style-position: inside;
+    text-align: left;
+    list-style: disc inside;
+    margin: 0 auto;
     background-color: lightblue;
     width: 70%;
     height: 300px;
     border-radius: 20px;
     transition: 0.2s ease-in-out;
     transform: scale(1);
+}
+
+.Guidelines-List{
+    text-align: center;
 }
 
 .Guidelines-List ul:hover{
@@ -69,4 +73,6 @@ opacity: 80%;
 .Guidelines-List{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
+
