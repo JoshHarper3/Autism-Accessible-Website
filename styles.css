@@ -1,0 +1,32 @@
+body {
+    background-color: #D3D3D3;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link{
+    color: black;
+    margin: 30px;
+    font-size: 22px;
+}
+
+.nav-link:hover{
+    color: white;
+    opacity: 80%;
+    text-decoration: none;
+}
+
+.navbar-color{
+    background-color: #90D5FF;
+}
+
+.navbar-brand{
+ font-family: "lorimer-no-2", sans-serif;
+ font-size: 30px;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
