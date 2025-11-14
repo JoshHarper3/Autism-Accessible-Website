@@ -31,48 +31,81 @@ html {
   margin-left: auto;
 }
 
-.guidelines-h1{
+.guidelines-h1-Mobile{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
 }
 
-.Guidelines-List ul li{
+.Guidelines-List-Mobile ul li{
     margin: 10px 0;
     text-align: center;
 }
 
-.Guidelines-List ul li span{
+.Guidelines-List-Mobile ul li span{
     color:black;
     text-align: center;
 }
 
-.Guidelines-List ul{
+.Guidelines-List-Mobile ul{
     font-size: 18px;
     text-align: left;
     list-style: disc inside;
     margin: 0 auto;
     background-color: lightblue;
-    width: 70%;
     height: 300px;
+    min-width: 600px;
+    width: 100%;
     border-radius: 20px;
     transition: 0.2s ease-in-out;
     transform: scale(1);
 }
 
-.Guidelines-List{
-    text-align: center;
-}
 
-.Guidelines-List ul:hover{
+
+.Guidelines-List-Mobile ul:hover{
 transform: scale(1.05);
 opacity: 80%;
 }
 
-.Guidelines-List{
+.Guidelines-List-Mobile{
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
+.Guidelines-List-Desktop ul{
+   font-size: 18px;
+    text-align: left;
+    list-style: disc inside;
+    margin: 0 auto;
+    background-color: lightblue;
+    height: 300px;
+    min-width: 600px;
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+    transform: scale(1);
+}
+
+
+
+.Guidelines-List-Desktop{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Guidelines-List-Desktop ul:hover{
+transform: scale(1.05);
+opacity: 80%;
+}
+
+.Guidelines-Wrapper{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px; 
+padding: 20px 60px;
+}
