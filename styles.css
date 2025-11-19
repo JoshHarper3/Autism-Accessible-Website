@@ -1,5 +1,15 @@
+:root{
+    --base-color: #D3D3D3;
+    --text-color: black;
+    --nav-text-color: black;
+    --guidelines-text-color: black;
+    --nav-hover-text-color: white;
+    --nav-color: #90D5FF;
+    --guidelines-box-color: #A0AFB1;
+}
+
 body {
-    background-color: #D3D3D3;
+    background-color: var(--base-color);
 }
 
 html {
@@ -7,19 +17,19 @@ html {
 }
 
 .nav-link{
-    color: black;
+    color: var(--nav-text-color);
     margin: 30px;
     font-size: 22px;
 }
 
 .nav-link:hover{
-    color: white;
+    color: var(--nav-hover-text-color);
     opacity: 80%;
     text-decoration: none;
 }
 
 .navbar-color{
-    background-color: #90D5FF;
+    background-color: var(--nav-color);
 }
 
 .navbar-brand{
@@ -44,7 +54,7 @@ html {
 }
 
 .Guidelines-List-Mobile ul li span{
-    color:black;
+    color: var(--guidelines-text-color);
     text-align: center;
 }
 
@@ -53,7 +63,7 @@ html {
     text-align: left;
     list-style: disc outside;
     margin: 0 auto;
-    background-color: #A0AFB1;
+    background-color: var(--guidelines-box-color);
     height: 300px;
     min-width: 800px;
     width: 100%;
@@ -86,7 +96,7 @@ opacity: 80%;
     text-align: left;
     list-style: disc outside;
     margin: 0 auto;
-    background-color: #A0AFB1;
+    background-color: var(--guidelines-box-color);
     height: 300px;
     min-width: 800px;
     width: 100%;
@@ -101,7 +111,7 @@ opacity: 80%;
 }
 
 .Guidelines-List-Desktop ul li span{
-    color:black;
+    color: var(--guidelines-text-color);
     text-align: center;
 }
 
