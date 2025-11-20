@@ -180,8 +180,8 @@ padding: 20px 60px;
     right: 0;
     bottom: 0;
     background-color: #3b3b3b;
-    -webkit-transition: .4s;
-    transition: .4s;
+    -webkit-transition: .3s;
+    transition: .3s;
 }
 
 .slider:before{
@@ -192,8 +192,8 @@ padding: 20px 60px;
     left: 4px;
     bottom: 4px;
     background-color: green;
-    -webkit-transition: .4s;
-    transition: .4s;
+    -webkit-transition: .3s;
+    transition: .3s;
 }
 
 input:checked + .slider {
@@ -224,7 +224,7 @@ input:checked + .slider:before{
     align-items: center;
     justify-content: center;
     margin: 20px 0;
-    gap: 15px;
+    gap: 0px;
 }
 
 #switch-text{
