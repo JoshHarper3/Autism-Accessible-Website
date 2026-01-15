@@ -88,7 +88,7 @@ html {
     margin: 0 auto;
     background-color: var(--guidelines-box-color);
     height: 300px;
-    min-width: 800px;
+    min-width: unset;
     width: 100%;
     border-radius: 20px;
     transition: 0.2s ease-in-out;
@@ -103,9 +103,8 @@ opacity: 80%;
 }
 
 .Guidelines-List-Mobile{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  flex: 1 1 45%;
+  min-width: 500px;
 }
 
 .Guidelines-Box-Title{
@@ -121,7 +120,7 @@ opacity: 80%;
     margin: 0 auto;
     background-color: var(--guidelines-box-color);
     height: 300px;
-    min-width: 800px;
+    min-width: unset;
     width: 100%;
     border-radius: 20px;
     transition: 0.2s ease-in-out;
@@ -140,9 +139,8 @@ opacity: 80%;
 
 
 .Guidelines-List-Desktop{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  flex: 1 1 45%;
+  min-width: 500px;
 }
 
 .Guidelines-List-Desktop ul:hover{
