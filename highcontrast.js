@@ -1,5 +1,5 @@
-const themeSwitch = document.getElementById('switch');
-const switchText = document.getElementById('switch-text');
+const themeSwitch = document.getElementById('switch-contrast');
+const switchText = document.getElementById('switch-text-contrast');
 
 if (localStorage.getItem('high-contrast-mode') === 'active') {
     document.body.classList.add('high-contrast-mode');
