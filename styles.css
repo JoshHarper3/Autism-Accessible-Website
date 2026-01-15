@@ -1,3 +1,31 @@
+@font-face{
+    font-family: "OpenDyslexic";
+    src: url(fonts/OpenDyslexic-Regular.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "OpenDyslexic";
+    src: url(fonts/OpenDyslexic-Bold.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "OpenDyslexic";
+    src: url(fonts/OpenDyslexic-Italic.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "OpenDyslexic";
+    src: url(fonts/OpenDyslexic-BoldItalic.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root{
     --base-color: #D3D3D3;
     --text-color: black;
@@ -54,7 +82,7 @@ html {
 
 .navbar-brand{
  font-family: var(--base-font);
- font-size: 30px;
+ font-size: 20px;
 }
 
 .navbar-toggler {
