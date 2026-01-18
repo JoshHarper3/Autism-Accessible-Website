@@ -105,23 +105,25 @@ html {
     color: var(--guidelines-heading-text-color);
 }
 
-.Guidelines-List-Mobile ul li{
+.Guidelines-List-Mobile ol li{
     margin: 10px 0;
     text-align: center;
 }
 
-.Guidelines-List-Mobile ul li span{
+.Guidelines-List-Mobile ol li span{
     color: var(--guidelines-text-color);
     text-align: center;
 }
 
-.Guidelines-List-Mobile ul{
+.Guidelines-List-Mobile ol{
     font-size: 18px;
     text-align: left;
     list-style: disc outside;
+    list-style-type: decimal;
     margin: 0 auto;
     background-color: var(--guidelines-box-color);
-    height: 300px;
+    height: auto;
+    padding: 10px 40px;
     min-width: unset;
     width: 100%;
     border-radius: 20px;
@@ -131,7 +133,7 @@ html {
 
 
 
-.Guidelines-List-Mobile ul:hover{
+.Guidelines-List-Mobile ol:hover{
 transform: scale(1.05);
 opacity: 80%;
 }
@@ -147,13 +149,15 @@ opacity: 80%;
     align-items: center;
 }
 
-.Guidelines-List-Desktop ul{
+.Guidelines-List-Desktop ol{
    font-size: 18px;
     text-align: left;
     list-style: disc outside;
+    list-style-type: decimal;
     margin: 0 auto;
     background-color: var(--guidelines-box-color);
-    height: 300px;
+    height: auto;
+    padding: 10px 40px;
     min-width: unset;
     width: 100%;
     border-radius: 20px;
@@ -161,12 +165,12 @@ opacity: 80%;
     transform: scale(1);
 }
 
-.Guidelines-List-Desktop ul li{
+.Guidelines-List-Desktop ol li{
     margin: 10px 0;
     text-align: center;
 }
 
-.Guidelines-List-Desktop ul li span{
+.Guidelines-List-Desktop ol li span{
     color: var(--guidelines-text-color);
     text-align: center;
 }
@@ -177,7 +181,7 @@ opacity: 80%;
   min-width: 500px;
 }
 
-.Guidelines-List-Desktop ul:hover{
+.Guidelines-List-Desktop ol:hover{
 transform: scale(1.05);
 opacity: 80%;
 }
