@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/open-dyslexic.css">
     <script type="text/javascript" src="highcontrast.js" defer></script>
     <script type="text/javascript" src="accessiblefont.js" defer></script>
+    <script type="text/javascript" src="accessiblelanguage.js" defer></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Autism Accessibility Website</title>
 </head>
@@ -77,6 +78,14 @@ contrast_rtl_off
        </label>
        </div>
 
+       <div class="switch-container">
+       <p id="switch-text-language"> Enable Accessible Language Mode</p>
+        <label class="switch">
+        <input type="checkbox" id="switch-language">
+        <span class="slider round"></span>
+       </label>
+       </div>
+
 
       <section id="#Guidelines">
           <div class="Guidelines-Wrapper">
@@ -87,7 +96,10 @@ contrast_rtl_off
         
           <div class="Guidelines-List-Mobile">
                <ol>
-                    <li><span>Ensure website navigation is clearly labelled with clear language or appropriate use of icons that accurately represent the page and follows an intuitive structure.</span></li>
+                    <li><span data-default-language="Ensure website navigation is clearly labelled with clear language or appropriate use of icons that accurately represent the page and follows an intuitive structure."
+                      data-accessible-language="Testing 1">
+                      Ensure website navigation is clearly labelled with clear language or appropriate use of icons that accurately represent the page and follows an intuitive structure.
+                    </span></li>
                     <li><span>Avoid the use of pop-ups that interrupt user flow and focus and instead display that information within the relevant page of the website.</span></li>
                     <li><span>Ensure page structure is clear with content being contained in the relevant page and section and not dispersed across different pages when unnecessary.</span></li>
                     <li><span>Ensure buttons are clearly labelled with either a clear and appropriate icon or clear language to avoid user confusion.</span></li>
