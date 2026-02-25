@@ -45,6 +45,9 @@
               </li>
               
             </ul>
+            <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas"
+            role="button" aria-controls="sidebar">
+            Accessibility Features</a>
           </div>
   </div>
         </div>
@@ -62,30 +65,7 @@ contrast_rtl_off
 </span>
   </button>
        --> 
-       <div class="switch-container">
-       <p id="switch-text-contrast"> Enable High Contrast Mode</p>
-        <label class="switch">
-        <input type="checkbox" id="switch-contrast">
-        <span class="slider round"></span>
-       </label>
-       </div>
-
-        <div class="switch-container">
-       <p id="switch-text-font"> Enable Accessible Font Mode</p>
-        <label class="switch">
-        <input type="checkbox" id="switch-font">
-        <span class="slider round"></span>
-       </label>
-       </div>
-
-       <div class="switch-container">
-       <p id="switch-text-language"> Enable Accessible Language Mode</p>
-        <label class="switch">
-        <input type="checkbox" id="switch-language">
-        <span class="slider round"></span>
-       </label>
-       </div>
-
+      
 
       <section id="#Guidelines">
           <div class="Guidelines-Wrapper">
@@ -138,12 +118,30 @@ contrast_rtl_off
             </div>
           <div class="Guidelines-List-Desktop">
                <ol>
-                    <li><span>Ensure website navigation is clearly labelled with clear language or appropriate use of icons that accurately represent the page and follows an intuitive structure.</span></li>
-                    <li><span>Avoid the use of pop-ups that interrupt user flow and focus and instead display that information within the relevant page of the website.</span></li>
-                    <li><span>Ensure page structure is clear with content being contained in the relevant page and section and not dispersed across different pages when unnecessary.</span></li>
-                    <li><span>Ensure buttons are clearly labelled with either a clear and appropriate icon or clear language to avoid user confusion.</span></li>
-                    <li><span>Ensure users can customise key visual and content features such as an adjustable colour scheme or the ability to condense text.</span></li>
-                    <li><span>Ensure videos do not play immediately on website launch, instead a video must require user input to play.</span></li>
+                    <li><span data-default-language="Ensure website navigation is clearly labelled with clear language or appropriate use of icons that accurately represent the page and follows an intuitive structure."
+                    data-accessible-language="Testing 1">
+                    Ensure website navigation is clearly labelled with clear language or appropriate use of icons that accurately represent the page and follows an intuitive structure.
+                    </span></li>
+                    <li><span data-default-language="Avoid the use of pop-ups that interrupt user flow and focus and instead display that information within the relevant page of the website."#
+                    data-accessible-language="Testing 2">
+                    Avoid the use of pop-ups that interrupt user flow and focus and instead display that information within the relevant page of the website.
+                    </span></li>
+                    <li><span data-default-language="Ensure page structure is clear with content being contained in the relevant page and section and not dispersed across different pages when unnecessary."
+                    data-accessible-language="Testing 3">
+                    Ensure page structure is clear with content being contained in the relevant page and section and not dispersed across different pages when unnecessary.
+                    </span></li>
+                    <li><span data-default-language="Ensure buttons are clearly labelled with either a clear and appropriate icon or clear language to avoid user confusion."
+                    data-accessible-language="Testing 4">
+                    Ensure buttons are clearly labelled with either a clear and appropriate icon or clear language to avoid user confusion.
+                    </span></li>
+                    <li><span data-default-language="Ensure users can customise key visual and content features such as an adjustable colour scheme or the ability to condense text."
+                    data-accessible-language="Testing 5">
+                    Ensure users can customise key visual and content features such as an adjustable colour scheme or the ability to condense text.
+                    </span></li>
+                    <li><span data-default-language="Ensure videos do not play immediately on website launch, instead a video must require user input to play."
+                    data-accessible-language="Testing 6">
+                    Ensure videos do not play immediately on website launch, instead a video must require user input to play.
+                    </span></li>
                 
                   </ol>
 
@@ -154,6 +152,40 @@ contrast_rtl_off
         </div>
         </div>
       </section>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar"
+      aria-labelledby="sidebar-label">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="sidebar-label"> Accessibility Features</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+      aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+          <div class="switch-container">
+       <p id="switch-text-contrast"> Enable High Contrast Mode</p>
+        <label class="switch">
+        <input type="checkbox" id="switch-contrast">
+        <span class="slider round"></span>
+       </label>
+       </div>
+
+        <div class="switch-container">
+       <p id="switch-text-font"> Enable Accessible Font Mode</p>
+        <label class="switch">
+        <input type="checkbox" id="switch-font">
+        <span class="slider round"></span>
+       </label>
+       </div>
+
+       <div class="switch-container">
+       <p id="switch-text-language"> Enable Accessible Language Mode</p>
+        <label class="switch">
+        <input type="checkbox" id="switch-language">
+        <span class="slider round"></span>
+       </label>
+       </div>
+
+    </div>
+    </div>
 
       
 

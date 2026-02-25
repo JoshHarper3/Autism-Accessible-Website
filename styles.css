@@ -48,7 +48,6 @@
     --nav-hover-text-color: #00008B;
     --nav-color: #EFBF04;
     --guidelines-box-color: #fff;
-    --switch-text-color: #fff;
 }
 
 .accessible-font-mode{
@@ -189,6 +188,7 @@ opacity: 80%;
 .Guidelines-Wrapper{
 display: flex;
 flex-wrap: wrap;
+flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 20px; 
