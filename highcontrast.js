@@ -27,5 +27,5 @@ if (themeSwitch.checked) {
     disableHighContrastMode();
 }
 
-})
+});
 

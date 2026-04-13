@@ -42,4 +42,4 @@ function defaultLanguageMode() {
     document.querySelectorAll('[data-accessible-language]').forEach(element => {
         element.textContent = element.getAttribute('data-default-language');
     });
-}
+};

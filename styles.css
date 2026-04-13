@@ -54,6 +54,18 @@
     --base-font: "OpenDyslexic", Arial, sans-serif;
 }
 
+
+
+.disable-animations *,
+.disable-animations *::before,
+.disable-animations *::after {
+    animation: none !important;
+    transition: none !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+}
+
+
 body {
     background-color: var(--base-color);
     font-family: var(--base-font);
@@ -287,6 +299,13 @@ input:checked + .slider:before{
     color: var(--switch-text-color);
 }
 
+#switch-text-animations{
+    font-family: var(--base-font);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--switch-text-color);
+}
 
 /* #contrast-switch{
     height: 50px;

@@ -27,4 +27,4 @@ if (themeSwitchFont.checked) {
     disableAccessibleFontMode();
 }
 
-})
+});
