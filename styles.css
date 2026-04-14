@@ -55,12 +55,13 @@
 }
 
 .accessibility-button img{
-    transform: scale(2.0);
+    height: 50px;
+    width: 50px;
     transition: ease-in-out 0.2s;
 }
 
 .accessibility-button img:hover{
-    transform: scale(2.5);
+    transform: scale(1.4);
 }
 
 
@@ -71,6 +72,7 @@
     transition: none !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+    transform: none !important;
 }
 
 .search{
@@ -196,12 +198,12 @@ html {
 
 .Guidelines-List-Mobile ol li{
     margin: 10px 0;
-    text-align: center;
+    text-align: left;
 }
 
 .Guidelines-List-Mobile ol li span{
     color: var(--guidelines-text-color);
-    text-align: center;
+    text-align: left;
 }
 
 .Guidelines-List-Mobile ol{
@@ -256,7 +258,7 @@ opacity: 80%;
 
 .Guidelines-List-Desktop ol li{
     margin: 10px 0;
-    text-align: center;
+    text-align: left;
 }
 
 .Guidelines-List-Desktop ol li span{
