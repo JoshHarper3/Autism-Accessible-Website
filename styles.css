@@ -72,6 +72,10 @@
     transition: none !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+    /* transform: none !important; */
+}
+
+.disable-animations *:hover{
     transform: none !important;
 }
 
