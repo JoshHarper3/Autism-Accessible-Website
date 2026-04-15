@@ -64,6 +64,13 @@
     transform: scale(1.4);
 }
 
+.accessibility-button{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+}
+
 
 .disable-animations *,
 .disable-animations *::before,
@@ -78,6 +85,7 @@
 .disable-animations *:hover{
     transform: none !important;
 }
+
 
 .search{
     width: max-content;
