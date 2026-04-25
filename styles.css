@@ -105,9 +105,16 @@ a:hover{
     width: 100%;
     border: 2px solid #FF92A5;
     border-radius: 5px;
-    transition: ease-in-out 0.2s
+    transition: ease-in-out 0.2s;
+    margin-bottom: 10px;
+    
 }
 
+
+
+#Examples-Inaccessible-Websites{
+padding: 60px;
+}
 
 .disable-animations *,
 .disable-animations *::before,
