@@ -32,6 +32,8 @@
     --nav-text-color: black;
     --guidelines-text-color: black;
     --guidelines-heading-text-color: black;
+    --link-color: #005fcc;
+    --link-hover-color: #003f8a;
     --nav-hover-text-color: white;
     --nav-color: #90D5FF;
     --guidelines-box-color: #A0AFB1;
@@ -45,9 +47,19 @@
     --nav-text-color: black;
     --guidelines-text-color: black;
     --guidelines-heading-text-color: #fff;
+    --link-color: #FFD700;
+    --link-hover-color: #ffffff;
     --nav-hover-text-color: #00008B;
     --nav-color: #EFBF04;
     --guidelines-box-color: #fff;
+}
+
+a {
+    color: var(--link-color)
+}
+
+a:hover{
+    color: var(--link-hover-color)
 }
 
 .accessible-font-mode{
@@ -79,14 +91,21 @@
 }
 
 .inaccessible-website-image-container{
-    max-width: 300px; 
+    width: 560px;
+    height: 315px;
     text-align: center;
-    border: 2px solid #FF92A5;
-    border-radius: 5px;
 }
 
+
+
+.inaccessible-website-image-container img:hover{
+ transform: scale(1.05);
+}
 .inaccessible-website-image-container img{
     width: 100%;
+    border: 2px solid #FF92A5;
+    border-radius: 5px;
+    transition: ease-in-out 0.2s
 }
 
 
@@ -169,6 +188,14 @@ iframe:hover{
 }
 
 .tutorial-h1{
+    font-family: var(--base-font);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--guidelines-heading-text-color);
+}
+
+.examples-h1{
     font-family: var(--base-font);
     font-size: 40px;
     font-weight: bold;
@@ -385,6 +412,10 @@ input:checked + .slider:before{
     gap: 0px;
 }
 
+p {
+    color: var(--text-color);
+}
+
 #switch-text-contrast{
     font-family: var(--base-font);
     font-size: 20px;
@@ -409,6 +440,8 @@ input:checked + .slider:before{
     color: var(--switch-text-color);
 }
 
+
+
 #switch-text-animations{
     font-family: var(--base-font);
     font-size: 20px;
@@ -416,6 +449,8 @@ input:checked + .slider:before{
     text-align: center;
     color: var(--switch-text-color);
 }
+
+
 
 /* #contrast-switch{
     height: 50px;
