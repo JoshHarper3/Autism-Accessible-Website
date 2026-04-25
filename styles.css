@@ -71,6 +71,24 @@
     z-index: 9999;
 }
 
+.inaccessible-website-examples-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap
+}
+
+.inaccessible-website-image-container{
+    max-width: 300px; 
+    text-align: center;
+    border: 2px solid #FF92A5;
+    border-radius: 5px;
+}
+
+.inaccessible-website-image-container img{
+    width: 100%;
+}
+
 
 .disable-animations *,
 .disable-animations *::before,
