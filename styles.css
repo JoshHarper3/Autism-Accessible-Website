@@ -295,7 +295,7 @@ opacity: 80%;
 
 .Guidelines-List-Mobile{
   flex: 1 1 45%;
-  min-width: 500px;
+   max-width: 1200px;
 }
 
 .Guidelines-Box-Title{
@@ -333,7 +333,7 @@ opacity: 80%;
 
 .Guidelines-List-Desktop{
   flex: 1 1 45%;
-  min-width: 500px;
+  max-width: 1200px;
 }
 
 .Guidelines-List-Desktop ol:hover{
